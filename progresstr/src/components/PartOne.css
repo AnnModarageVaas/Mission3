@@ -1,0 +1,33 @@
+
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+/*Course title CSS*/
+.BeginnerCourse{
+
+    /*text*/
+    font-family: Verdana, sans-serif;
+    border-radius: 15px;
+    color: rgb(113, 112, 112) ;
+  
+
+    /* margin and padding */
+    margin-left: 40%;
+    margin-top: 25%;
+
+
+    /*flex box*/
+    display: flex;
+    justify-content: flex-start;
+
+    padding: 80px ;
+    
+    position: fixed;  
+    background-color: rgb(208, 232, 250);
+    width: 95%;
+    height: 100%;
+    border-radius: 35px;
+}
+
