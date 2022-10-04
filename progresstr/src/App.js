@@ -1,14 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
 
-import PartOne from './components/PartOne';
-import PartTwo from './components/PartTwo';
+import ProgressTracker from "./components/ProgressTracker";
+
 
 function App() {
   return (
     <div className="App">
-      <PartTwo/>
-     <PartOne/>
+
+     <ProgressTracker/>
      
     </div>
   );

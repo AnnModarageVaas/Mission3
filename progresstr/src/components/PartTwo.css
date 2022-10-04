@@ -1,7 +1,9 @@
 
-/*light color box 1*/
-.{
-    background-color: rgb(200, 222, 239);
-    width: 40%;
-    border-radius: 35px;
-}
+
+/*Main-Text -Beginner Course */
+
+.BeginnerCourse{
+
+font-family: Verdana, sans-serif;
+border-radius: 15px;
+color: rgb(113, 112, 112) ;}

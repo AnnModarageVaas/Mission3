@@ -4,10 +4,7 @@ import './PartTwo.css'
 export default function PartTwo() {
   return (
     <div>
-      <div className="BoxOne">
-
-
-      </div>
+      <h1 className='BeginnerCourse'>BEGINNER COURSE</h1>
     </div>
   )
 }
