@@ -1,22 +1,24 @@
 
-*{
-    box-sizing: border-box;
-    margin: auto;
+/* big box */
+.BoxOneSvg{
+
+top: 109px;
+left: 266px;
+width: 1571px;
+height: 860px;
+background: transparent 0% 0% no-repeat padding-box;
+border-radius: 30px;
+opacity: 1;
 }
-
-/*Course title CSS*/
-.BoxOne{
-
-    /*light color main box 1*/
-
-    /* margin and padding */
+/*
+    
     margin-left: 40%;
     margin-top: 25%;
 
 
-    /*flex box*/
+    
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex;
 
     padding: 80px ;
     
@@ -25,5 +27,4 @@
     width: 95%;
     height: 100%;
     border-radius: 35px;
-}
-
+*/
