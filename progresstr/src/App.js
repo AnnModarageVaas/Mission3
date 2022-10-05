@@ -1,10 +1,10 @@
 
 import ProgressTracker from "./components/ProgressTracker";
 
-
 function App() {
   return (
     <div className="App">
+
 
      <ProgressTracker/>
      

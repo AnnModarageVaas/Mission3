@@ -1,9 +1,9 @@
 
-
-/*Main-Text -Beginner Course */
-
-.BeginnerCourse{
-
-font-family: Verdana, sans-serif;
-border-radius: 15px;
-color: rgb(113, 112, 112) ;}
+.SecondBox{
+    background-color: #B2E4FA;
+    top: 524px;
+    left: 172px;
+    width: 64px;
+    height: 72px;
+    background: transparent;
+}
