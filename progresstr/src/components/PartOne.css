@@ -1,30 +1,4 @@
 
-/* big box */
-.BoxOneSvg{
-
-top: 109px;
-left: 266px;
-width: 1571px;
-height: 860px;
-background: transparent 0% 0% no-repeat padding-box;
-border-radius: 30px;
-opacity: 1;
+.background{
+   background-image: cover;
 }
-/*
-    
-    margin-left: 40%;
-    margin-top: 25%;
-
-
-    
-    display: flex;
-    justify-content: flex;
-
-    padding: 80px ;
-    
-    position: fixed;  
-    background-color: rgb(208, 232, 250);
-    width: 95%;
-    height: 100%;
-    border-radius: 35px;
-*/

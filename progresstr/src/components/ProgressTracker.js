@@ -8,13 +8,14 @@ import StudentReco from './StudentReco'
 import ExportCompo from './ExportCompo'
 import './ProgressTracker.css'
 
+
 export default function ProgressTracker() {
   return (
     //calling components
     
     <div>
-     
      <PartOne/>
+     
      <PartTwo/>
      
      <ExportCompo/>
