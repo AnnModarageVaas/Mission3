@@ -8,6 +8,7 @@
    background-size: 100%;
    box-sizing: border-box;
    margin: 0%;
+
 }
 
   .progressTrackerAll{
@@ -45,14 +46,14 @@
    
 }
 
-.progressTrackerHeader{
+/*.progressTrackerHeader{
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: left;
 }
 
-.ProgresprogressTrackerWhiteboxsBar{
+.ProgresprogressTrackerWhiteBoxsbar{
    width:65%;
    background-color:#FFFFFF;
   margin: auto;
@@ -74,4 +75,4 @@
 
 .progressTracker{
 
-}
+}*/

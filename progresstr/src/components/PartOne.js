@@ -2,12 +2,12 @@
 //1st big Rectangle
 import React from 'react'
 import './PartOne.css'
+import StudentReco from './StudentReco'
 
 
 export default function PartOne(props) {
   const LetsExport="Export as spreadsheet"//dynamic components 1 //canot use ob and boolean values
-  const CompletedStatement= "projects completed";
-  return (
+  return(
   
   <div className='progressTrackerAll'>
 
@@ -15,16 +15,26 @@ export default function PartOne(props) {
 
           <div className="progressTrackerExport">{LetsExport}</div>
 
-             <span className="progressTrackerHeader">BEGINNER COURSE</span>
+            <span className="progressTrackerHeader">BEGINNER COURSE</span>
          
+            <div className='studentRecoContainer'>
+            <StudentReco student='AIDEN ANDREWS'/>
+            <StudentReco student='COUTNEY BRISTOL'/>
+            <StudentReco student='NAGINI CORTES'/>
+            <StudentReco student='RAWIRI FLETCHER'/>
+            <StudentReco student='JAVIER FUEGO'/>
+            <StudentReco student='TOKIO HAN'/>
+            <StudentReco student='LISA HORAN'/>
+            <StudentReco student='ALICE KINDELAN'/>
+            <StudentReco student='SIMON LAINE'/>
+            <StudentReco student='NEVEAH MACHENRY'/>
+            <StudentReco student='HARRY MCGRATH'/>
+            <StudentReco student='LUCIA MENDEZ'/>
+            <StudentReco student='HANU NEPE'/>
+            <StudentReco student="SHENE O'MONAHAN"/>
+            <StudentReco student="MARK 0'LEARY"/>
 
-
-      <div className='progressTrackerStudent'>
-        <div className='ProgresprogressTrackerWhiteboxsBar'>
-             <div className="progressTrackerName">{props.student}</div>
-             <div className='progressTracker'></div>
-              <div className="progressTrackerCompletedPojects">{CompletedStatement}</div>
-              </div>
+        
         </div>
        </div>
   </div>
