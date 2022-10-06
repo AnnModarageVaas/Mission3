@@ -9,17 +9,23 @@ export default function PartOne(props) {
   const CompletedStatement= "projects completed";
   return (
   
-  <div className='contentAll'>
+  <div className='progressTrackerAll'>
 
-      <div className='secondBox'>
-          <div className="exportpdf">{LetsExport}</div>
+      <div className='progressTrackerLightBackground'>
 
-             <span className="header">BEGINNER COURSE</span>
-          </div>
-      <div className='studentAll'>
-             <div className="ProgressBarName">{props.student}</div>
-              <div className="CompletedPojects">{CompletedStatement}</div>
+          <div className="progressTrackerExport">{LetsExport}</div>
 
+             <span className="progressTrackerHeader">BEGINNER COURSE</span>
+         
+
+
+      <div className='progressTrackerStudent'>
+        <div className='ProgresprogressTrackerWhiteboxsBar'>
+             <div className="progressTrackerName">{props.student}</div>
+             <div className='progressTracker'></div>
+              <div className="progressTrackerCompletedPojects">{CompletedStatement}</div>
+              </div>
+        </div>
        </div>
   </div>
 
