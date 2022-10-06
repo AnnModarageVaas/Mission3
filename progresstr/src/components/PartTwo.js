@@ -8,7 +8,7 @@ export default function PartTwo() {
   return (
  
     <div>
-<div ClassName="Second Box"/>
+
   
     </div>
     

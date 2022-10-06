@@ -3,8 +3,7 @@
 import React from 'react'
 
 import PartOne from './PartOne'
-import PartTwo from './PartTwo'
-import StudentReco from './StudentReco'
+
 
 import './ProgressTracker.css'
 

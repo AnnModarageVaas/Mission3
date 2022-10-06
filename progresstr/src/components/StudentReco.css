@@ -1,8 +1,22 @@
-.ProgressBar{
-    width:65%;
-    background-color: aliceblue;
+.studentAll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+.ProgressBarName{
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #707070;
+    width:10%;
+    background-color:#FFFFFF;
     margin:40px10px;
     padding: 30px 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    border-radius: 15px;
+    
 }
+ .CompletedPojects{
+    color: #707070;
+    font-size: 14px;
+ }
