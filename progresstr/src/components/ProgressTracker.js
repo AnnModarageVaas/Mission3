@@ -5,7 +5,7 @@ import React from 'react'
 import PartOne from './PartOne'
 import PartTwo from './PartTwo'
 import StudentReco from './StudentReco'
-import ExportCompo from './ExportCompo'
+
 import './ProgressTracker.css'
 
 
@@ -14,28 +14,24 @@ export default function ProgressTracker() {
     //calling components
     
     <div>
+   
      <PartOne/>
-     
-     <PartTwo/>
-     
-     <ExportCompo/>
-
-
-     <StudentReco student='AIDEN ANDREWS'/>
-     <StudentReco student='COUTNEY BRISTOL'/>
-     <StudentReco student='NAGINI CORTES'/>
-     <StudentReco student='RAWIRI FLETCHER'/>
-     <StudentReco student='JAVIER FUEGO'/>
-     <StudentReco student='TOKIO HAN'/>
-     <StudentReco student='LISA HORAN'/>
-     <StudentReco student='ALICE KINDELAN'/>
-     <StudentReco student='SIMON LAINE'/>
-     <StudentReco student='NEVEAH MACHENRY'/>
-     <StudentReco student='HARRY MCGRATH'/>
-     <StudentReco student='LUCIA MENDEZ'/>
-     <StudentReco student='HANU NEPE'/>
-     <StudentReco student="SHENE O'MONAHAN"/>
-     <StudentReco student="MARK 0'LEARY"/>
+  
+     <PartOne student='AIDEN ANDREWS'/>
+     <PartOne student='COUTNEY BRISTOL'/>
+     <PartOne student='NAGINI CORTES'/>
+     <PartOne student='RAWIRI FLETCHER'/>
+     <PartOne student='JAVIER FUEGO'/>
+     <PartOne student='TOKIO HAN'/>
+     <PartOne student='LISA HORAN'/>
+     <PartOne student='ALICE KINDELAN'/>
+     <PartOne student='SIMON LAINE'/>
+     <PartOne student='NEVEAH MACHENRY'/>
+     <PartOne student='HARRY MCGRATH'/>
+     <PartOne student='LUCIA MENDEZ'/>
+     <PartOne student='HANU NEPE'/>
+     <PartOne student="SHENE O'MONAHAN"/>
+     <PartOne student="MARK 0'LEARY"/>
      
 
     </div>
