@@ -1,5 +1,5 @@
 import React from 'react'
-import './StudentReco.css'
+import './StudentReco.css';
 
 export default function StudentReco(props) {
     const CompletedStatement= "Projects completed";
@@ -14,7 +14,7 @@ export default function StudentReco(props) {
         </div>
 
         <div className="progressTrackerCompletedPojects">{CompletedStatement}</div>
-        
+
     </div>
     </div>
 
