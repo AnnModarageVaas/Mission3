@@ -1,6 +1,5 @@
 .footer{
-        padding: 1px 500px;
-        
+       
         text-align: center;
         background-color: white;
         position: fixed;
@@ -8,11 +7,12 @@
         left: 0;
         width: 100%;
         align-items: center;
+        height: 40px;
     
 }
-.footer.img{
-    width: 5%;
-    padding: 1px;
+.footer img{
+      width: 10%;
+
 }
 
 
