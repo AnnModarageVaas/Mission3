@@ -1,6 +1,7 @@
 import React from 'react'
 
 import PartOne from './PartOne'
+import PartTwo from './PartTwo'
 
 
 import './ProgressTracker.css'
@@ -13,6 +14,7 @@ export default function ProgressTracker() {
     <div>
    
      <PartOne/>
+     <PartTwo/>
   
      
 

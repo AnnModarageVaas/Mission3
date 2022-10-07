@@ -6,10 +6,15 @@ export default function StudentReco(props) {
   return (
 <div className='progressTrackerStudent'>
     <div className='progressTrackerWhiteBox'>
-      <div className="progressTrackerName">{props.student}</div>
-    <div className='progressTracker'></div>
-     <div className="progressTrackerCompletedPojects">{CompletedStatement}</div>
-     </div>
+
+        <div className="progressTrackerName">{props.student}</div>
+
+        <div className='progressTracker'>
+            <div className='progresstrackerProjects'>{props.levels}</div>
+        </div>
+
+        <div className="progressTrackerCompletedPojects">{CompletedStatement}</div>
     </div>
+</div>
   )
   }

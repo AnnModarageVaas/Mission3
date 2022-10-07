@@ -1,14 +1,15 @@
 import React from 'react'
 import './PartTwo.css'
+import Footer from './icons/Footer.jpg'
 
 export default function PartTwo() {
 
-  const LetsExport='EXPORT AS SPREADSHEET'// A  dynamic Compo
-
   return (
  
-    <div>
-
+    <div className='footer'>
+       
+            <img src={Footer} alt='footerimage'/>
+       
   
     </div>
     
