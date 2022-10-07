@@ -1,5 +1,5 @@
 .footer{
-        padding: 10px 500px;
+        padding: 1px 500px;
         
         text-align: center;
         background-color: white;
@@ -11,7 +11,7 @@
     
 }
 .footer.img{
-    width: 10%;
+    width: 5%;
     padding: 1px;
 }
 
