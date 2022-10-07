@@ -2,9 +2,9 @@ import React from 'react'
 import './StudentReco.css'
 
 export default function StudentReco(props) {
-    const CompletedStatement= "projects completed";
+    const CompletedStatement= "Projects completed";
   return (
-<div className='progressTrackerStudent'>
+<div className='StudentReco'>
     <div className='progressTrackerWhiteBox'>
 
         <div className="progressTrackerName">{props.student}</div>
@@ -14,7 +14,9 @@ export default function StudentReco(props) {
         </div>
 
         <div className="progressTrackerCompletedPojects">{CompletedStatement}</div>
+        
     </div>
-</div>
+    </div>
+
   )
   }
