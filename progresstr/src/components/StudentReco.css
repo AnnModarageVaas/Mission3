@@ -1,22 +1,39 @@
-.studentAll{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: left;
+.progresstrackerWhite {
+  display: flex;
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: 5vh;
+  padding: 30px 20px;
+  border-radius: 15px;
 }
 
-.ProgressBarName{
-    font-family:'Open Sans', sans-serif;
-    font-size: 20px;
-    color: #707070;
-    width:10%;
-    background-color:#FFFFFF;
-    margin:40px10px;
-    padding: 30px 20px;
-    border-radius: 15px;
-    
+.right {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #6c6c6c;
+  font-family: "Nunito", sans-serif;
+  /* display: grid;
+  grid-gap: 10px;
+  grid-auto-flow: row; */
 }
- .CompletedPojects{
-    color: #707070;
-    font-size: 14px;
- }
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.progressTrackerName {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #707070;
+  background-color: #ffffff;
+  padding-bottom: 1vh;
+}
+
+.progressTrackerCompletedPojects {
+  color: #707070;
+  font-size: 14px;
+  background-color: #ffffff;
+}

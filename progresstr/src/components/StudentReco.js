@@ -1,22 +1,20 @@
-import React from 'react'
-import './StudentReco.css';
+import React from "react";
+import ProgressCircles from "./ProgressCircles";
+import "./StudentReco.css";
 
 export default function StudentReco(props) {
-    const CompletedStatement= "Projects completed";
+  const CompletedStatement = "Projects completed";
   return (
-<div className='StudentReco'>
-    <div className='progressTrackerWhiteBox'>
-
+    <div className="progresstrackerWhite">
+      <div className="left">
         <div className="progressTrackerName">{props.student}</div>
-
-        <div className='progressTracker'>
-            <div className='progresstrackerProjects'>{props.levels}</div>
+        <div className="progressTrackerCompletedPojects">
+          {CompletedStatement}
         </div>
-
-        <div className="progressTrackerCompletedPojects">{CompletedStatement}</div>
-
+      </div>
+      <div className="right">
+        <ProgressCircles info={props.levels} />
+      </div>
     </div>
-    </div>
-
-  )
-  }
+  );
+}
