@@ -4,7 +4,7 @@ function ProgressCircles({ info }) {
   console.log(info);
   return <>
     {
-      [...Array(10).keys()].map((num) => (
+      [...Array(16).keys()].map((num) => (
         <div className="circle"> {num} </div>
       ))
     }
