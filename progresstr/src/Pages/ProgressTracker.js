@@ -1,11 +1,10 @@
 import React from 'react'
 
-import PartOne from './PartOne'
-import PartTwo from './PartTwo'
-import PrBackground from './PrBackground'
+import PartOne from '../components/PartOne'
+import Footer from '../Shared components/Footer'
+import PrBackground from '../components/PrBackground'
 
 
-import './ProgressTracker.css'
 
 
 export default function ProgressTracker() {
@@ -15,7 +14,7 @@ export default function ProgressTracker() {
     <div>
      <PrBackground/>
      <PartOne/>
-     <PartTwo/>
+     <Footer/>
   
      
 

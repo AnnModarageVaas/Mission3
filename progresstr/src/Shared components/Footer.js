@@ -1,6 +1,6 @@
 import React from 'react'
-import './PartTwo.css'
-import Footer from './icons/Footer.jpg'
+import './Footer.css'
+
 
 export default function PartTwo() {
 
@@ -8,7 +8,7 @@ export default function PartTwo() {
  
     <div className='footer'>
        
-            <img src={Footer} alt='footerimage'/>
+            <img src='Footer' alt='footerimage'/>
        
   
     </div>

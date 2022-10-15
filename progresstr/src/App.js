@@ -1,5 +1,5 @@
 
-import ProgressTracker from "./components/ProgressTracker";
+import ProgressTracker from "./Pages/ProgressTracker";
 import "./App.css";
 
 function App() {
